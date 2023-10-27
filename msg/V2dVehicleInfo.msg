@@ -3,9 +3,9 @@
 int8 UNKNOWN=-1
 
 # constants for driving_mode
-int8 REMOTE=0
+int8 MANUAL=0
 int8 AUTOPILOT=1
-int8 MANUAL=2
+int8 REMOTE=2
 
 # constants for gear_status
 int8 PARK=0
