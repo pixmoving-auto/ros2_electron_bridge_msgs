@@ -2,7 +2,7 @@
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 
 source ../install/setup.bash
-ros2 topic pub --once /app/display/current_station_info ros2_electron_bridge_msgs/msg/V2dVehicleInfo  '
+ros2 topic pub --once /app/display/vehicle_info ros2_electron_bridge_msgs/msg/V2dVehicleInfo  '
 {
 header: {stamp: now, frame_id: "frame"}, 
 vehicle_speed_km_per_h: 12,    
